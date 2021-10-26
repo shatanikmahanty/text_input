@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: const Icon(
                   Icons.search,
                   color: Colors.red,
-                  size: 20,
+                  size: 40,
                 ),
                 onPressed: () {
                   showDialog(
@@ -118,7 +118,6 @@ class _MyHomePageState extends State<MyHomePage> {
                                     ),
                                     icon: const Icon(
                                       Icons.search_rounded,
-                                      size: 40,
                                     ),
                                     onPressed: () {
                                       FocusScope.of(context).unfocus();
